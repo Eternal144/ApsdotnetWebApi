@@ -26,7 +26,7 @@ namespace ApiMySQLActor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<sakilaContext>(options =>
-                options.UseMySQL(Configuration.GetConnectionString("SakilaDatabase")));
+                options.UseMySQL(Configuration.GetConnectionString("eternalDatabase")));
             services.AddMvc();
         }
 

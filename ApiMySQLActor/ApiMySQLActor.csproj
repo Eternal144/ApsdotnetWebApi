@@ -19,4 +19,21 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\Address.cs" />
+    <Compile Remove="Models\Category.cs" />
+    <Compile Remove="Models\City.cs" />
+    <Compile Remove="Models\Country.cs" />
+    <Compile Remove="Models\FilmCategory.cs" />
+    <Compile Remove="Models\FilmText.cs" />
+    <Compile Remove="Models\Language.cs" />
+    <Compile Remove="Models\Payment.cs" />
+    <Compile Remove="Models\Rental.cs" />
+    <Compile Remove="Models\Staff.cs" />
+    <Compile Remove="Models\Store.cs" />
+    <Compile Remove="Models\Inventory.cs" />
+    <Compile Remove="Models\Film.cs" />
+    <Compile Remove="Models\Customer.cs" />
+    <Compile Remove="Models\FilmActor.cs" />
+  </ItemGroup>
 </Project>

@@ -14,11 +14,14 @@ namespace ApiMySQLActor
     {
         public static void Main(string[] args)
         {
+            string[] aa = args;
+            //System.Console.WriteLine(args);
             BuildWebHost(args).Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://*:8080")
                 .UseStartup<Startup>()
                 .Build();
     }

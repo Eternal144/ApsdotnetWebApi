@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+//仓库
 namespace ApiMySQLActor.Repositories
 {
     public class ActorsRepository : IActorsRepository
@@ -15,50 +16,50 @@ namespace ApiMySQLActor.Repositories
             _context = context;
         }
 
-        public Actor[] GetActors()
+        public Record[] GetActors()
         {
-            return _context.Actor.ToArray();
+            return _context.Records.ToArray();
         }
 
-        public Actor GetActorById(int id)
+        public Record GetActorById(int id)
         {
-            var actor = _context.Actor.SingleOrDefault(a => a.ActorId == id);
+            var actor = _context.Records.SingleOrDefault(a => a.rid == id);
             return actor;
         }
 
         // Better to use EntityState.Modified to update for unit testing
-        public int UpdateActorById(int id, Actor actor)
+        public int UpdateActorById(int id, Record record)
         {
             int updateSuccess = 0;
-            var target = _context.Actor.SingleOrDefault(a => a.ActorId == id);
+            var target = _context.Records.SingleOrDefault(a => a.rid == id);
             if(target != null)
             {
-                _context.Entry(target).CurrentValues.SetValues(actor);
+                _context.Entry(target).CurrentValues.SetValues(record);
                 updateSuccess =_context.SaveChanges();
             }
             return updateSuccess;
         }
 
         // This is a better approach for unit testing
-        public int UpdateActorByIdEntityState(int id, Actor actor)
+        public int UpdateActorByIdEntityState(int id, Record record)
         {
             int updateSuccess = 0;
-            if (id != actor.ActorId)
+            if (id != record.rid)
             {
                 return updateSuccess;
             }
-            _context.MarkAsModified(actor);
+            _context.MarkAsModified(record);
             updateSuccess = _context.SaveChanges();
             return updateSuccess;
         }
 
-        public int AddNewActor(Actor actor)
+        public int AddNewRecord(Record actor)
         {
             int insertSuccess = 0;
-            int maxId = _context.Actor.Max(p => p.ActorId);
+            int maxId = _context.Records.Max(p => p.rid);
 
-            actor.ActorId = (short) (maxId + 1);
-            _context.Actor.Add(actor);
+            actor.rid = (short) (maxId + 1);
+            _context.Records.Add(actor);
             insertSuccess = _context.SaveChanges();
 
             return insertSuccess;
@@ -68,10 +69,10 @@ namespace ApiMySQLActor.Repositories
         public int DeleteActorById(int id)
         {
             int deleteSuccess = 0;
-            var actor = _context.Actor.SingleOrDefault(a => a.ActorId == id);
+            var actor = _context.Records.SingleOrDefault(a => a.rid == id);
             if (actor != null)
             {
-                _context.Actor.Remove(actor);
+                _context.Records.Remove(actor);
                 deleteSuccess = _context.SaveChanges();
             }
             return deleteSuccess;

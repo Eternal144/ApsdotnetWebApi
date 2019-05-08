@@ -9,7 +9,7 @@ namespace ApiMySQLActor.Models
         public short FilmId { get; set; }
         public DateTimeOffset LastUpdate { get; set; }
 
-        public Actor Actor { get; set; }
+        public Record record { get; set; }
         public Film Film { get; set; }
     }
 }

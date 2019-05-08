@@ -29,10 +29,10 @@ namespace ApiMySQLActor.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            Actor actor = actors.GetActorById(id);
-            if (actor != null)
+            Record record = actors.GetActorById(id);
+            if (record != null)
             {
-                return Ok(actor);
+                return Ok(record);
             }
             else
             {
@@ -42,14 +42,15 @@ namespace ApiMySQLActor.Controllers
 
         // POST api/actors
         [HttpPost]
-        public IActionResult Post([FromBody]Actor actor)
+        public IActionResult Post([FromBody]Record actor)
         {
+            
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            int success = actors.AddNewActor(actor);
+            int success = actors.AddNewRecord   (actor);
             if (success == 1)
             {
                 return Created("api/actors", actor);
@@ -59,7 +60,7 @@ namespace ApiMySQLActor.Controllers
 
         // PUT api/actors
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody]Actor actor)
+        public IActionResult Put(int id, [FromBody]Record actor)
         {
             if(!ModelState.IsValid)
             {

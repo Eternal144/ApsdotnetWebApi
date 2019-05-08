@@ -9,27 +9,28 @@ using ApiMySQLActor.Repositories;
 namespace ApiMySQLActor.Controllers
 {
     [Route("api/[controller]")]
-    public class ActorsController : Controller
+    public class RecordsController : Controller
     {
-        private IActorsRepository actors;
+        private IRecordsRepository records;
 
-        public ActorsController(sakilaContext context)
+        public RecordsController(sakilaContext context)
         {
-            actors = new ActorsRepository(context);
+
+            records = new RecordsRepository(context);
         }
 
         // GET api/actors
         [HttpGet()]
         public IActionResult Get()
         {
-            return Ok(actors.GetActors());
+            return Ok(records.GetActors());
         }
 
         // GET api/actors/101
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            Record record = actors.GetActorById(id);
+            Record record = records.GetActorById(id);
             if (record != null)
             {
                 return Ok(record);
@@ -50,7 +51,7 @@ namespace ApiMySQLActor.Controllers
                 return BadRequest();
             }
 
-            int success = actors.AddNewRecord   (actor);
+            int success = records.AddNewRecord   (actor);
             if (success == 1)
             {
                 return Created("api/actors", actor);
@@ -68,7 +69,7 @@ namespace ApiMySQLActor.Controllers
             }
 
             // int success = actors.UpdateActorById(id, actor);
-            int success = actors.UpdateActorByIdEntityState(id, actor);
+            int success = records.UpdateActorByIdEntityState(id, actor);
 
             if (success == 1)
             {
@@ -82,7 +83,7 @@ namespace ApiMySQLActor.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            int success = actors.DeleteActorById(id);
+            int success = records.DeleteActorById(id);
 
             if (success == 1)
             {

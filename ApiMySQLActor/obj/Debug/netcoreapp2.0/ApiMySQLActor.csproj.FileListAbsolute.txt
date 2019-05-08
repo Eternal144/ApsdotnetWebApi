@@ -31,3 +31,14 @@ C:/Users/taka/source/repos/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/obj
 /Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.AssemblyInfo.cs
 /Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.dll
 /Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.pdb
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/bin/Debug/netcoreapp2.0/ApiMySQLActor.deps.json
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/bin/Debug/netcoreapp2.0/ApiMySQLActor.runtimeconfig.json
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/bin/Debug/netcoreapp2.0/ApiMySQLActor.runtimeconfig.dev.json
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/bin/Debug/netcoreapp2.0/ApiMySQLActor.dll
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/bin/Debug/netcoreapp2.0/ApiMySQLActor.pdb
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.csprojAssemblyReference.cache
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.csproj.CoreCompileInputs.cache
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.AssemblyInfoInputs.cache
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.AssemblyInfo.cs
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.dll
+/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/Debug/netcoreapp2.0/ApiMySQLActor.pdb

@@ -1,31 +1,31 @@
 ﻿<Properties StartupConfiguration="{D202C07C-74B9-4539-B987-D831096A3625}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiMySQLActor/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiMySQLActor/Controllers/RecordsController.cs">
     <Files>
       <File FileName="ApiMySQLActor/Models/Records.cs" Line="10" Column="30" />
-      <File FileName="ApiMySQLActor/Models/sakilaContext.cs" Line="21" Column="1" />
-      <File FileName="ApiMySQLActor/Models/IsakilaContext.cs" Line="14" Column="22" />
-      <File FileName="ApiMySQLActor/Repositories/ActorsRepository.cs" Line="82" Column="1" />
-      <File FileName="ApiMySQLActor/Repositories/IActorsRepository.cs" Line="6" Column="22" />
-      <File FileName="ApiMySQLActor/Controllers/ActorsController.cs" Line="85" Column="13" />
-      <File FileName="ApiMySQLActor/Models/Course.cs" Line="17" Column="1" />
-      <File FileName="ApiMySQLActor/Models/Student.cs" Line="13" Column="22" />
-      <File FileName="ApiMySQLActor/Program.cs" Line="19" Column="1" />
-      <File FileName="ApiMySQLActor/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="ApiMySQLActor/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="ApiMySQLActor/appsettings.json" Line="1" Column="1" />
-      <File FileName="ApiMySQLActor/Startup.cs" Line="29" Column="73" />
+      <File FileName="ApiMySQLActor/Repositories/ICoursesRepository.cs" Line="11" Column="30" />
+      <File FileName="ApiMySQLActor/Repositories/IRecordsRepository.cs" Line="11" Column="21" />
+      <File FileName="ApiMySQLActor/Repositories/CoursesRepository.cs" Line="30" Column="28" />
+      <File FileName="ApiMySQLActor/Repositories/RecordsRepository.cs" Line="19" Column="28" />
+      <File FileName="ApiMySQLActor/Startup.cs" Line="21" Column="1" />
+      <File FileName="ApiMySQLActor/Controllers/CourseController.cs" Line="21" Column="8" />
+      <File FileName="ApiMySQLActor/Properties/launchSettings.json" Line="13" Column="9" />
+      <File FileName="ApiMySQLActor/Program.cs" Line="14" Column="6" />
+      <File FileName="ApiMySQLActor/appsettings.json" Line="6" Column="5" />
+      <File FileName="ApiMySQLActor/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="ApiMySQLActor/Controllers/RecordsController.cs" Line="10" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ApiMySQLActor" expanded="True">
             <Node name="ApiMySQLActor" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="RecordsController.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
+            <Node name="ApiMySQLActorUnitTest" expanded="True" />
           </Node>
         </State>
       </Pad>

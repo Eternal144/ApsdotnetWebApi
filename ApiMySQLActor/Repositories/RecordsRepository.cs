@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 //仓库
 namespace ApiMySQLActor.Repositories
 {
-    public class ActorsRepository : IActorsRepository
+    public class RecordsRepository : IRecordsRepository
     {
         private IsakilaContext _context;
 
-        public ActorsRepository (IsakilaContext context)
+        public RecordsRepository(IsakilaContext context)
         {
             _context = context;
         }

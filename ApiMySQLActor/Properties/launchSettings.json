@@ -19,7 +19,7 @@
     "ApiMySQLActor": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/actors",
+      "launchUrl": "api/records",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

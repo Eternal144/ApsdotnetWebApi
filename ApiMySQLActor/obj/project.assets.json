@@ -13658,11 +13658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/ApiMySQLActor.csproj",
+      "projectUniqueName": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/ApiMySQLActor.csproj",
       "projectName": "ApiMySQLActor",
-      "projectPath": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/ApiMySQLActor.csproj",
+      "projectPath": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/ApiMySQLActor.csproj",
       "packagesPath": "/Users/sisilee/.nuget/packages/",
-      "outputPath": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/obj/",
+      "outputPath": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

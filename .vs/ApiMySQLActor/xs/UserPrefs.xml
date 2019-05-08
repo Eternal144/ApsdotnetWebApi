@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{D202C07C-74B9-4539-B987-D831096A3625}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiMySQLActor/Models/IsakilaContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiMySQLActor/Startup.cs">
     <Files>
       <File FileName="ApiMySQLActor/Models/Records.cs" Line="10" Column="30" />
-      <File FileName="ApiMySQLActor/Models/sakilaContext.cs" Line="21" Column="25" />
-      <File FileName="ApiMySQLActor/Models/IsakilaContext.cs" Line="12" Column="1" />
+      <File FileName="ApiMySQLActor/Models/sakilaContext.cs" Line="21" Column="1" />
+      <File FileName="ApiMySQLActor/Models/IsakilaContext.cs" Line="14" Column="22" />
       <File FileName="ApiMySQLActor/Repositories/ActorsRepository.cs" Line="82" Column="1" />
       <File FileName="ApiMySQLActor/Repositories/IActorsRepository.cs" Line="6" Column="22" />
       <File FileName="ApiMySQLActor/Controllers/ActorsController.cs" Line="85" Column="13" />
@@ -11,6 +11,9 @@
       <File FileName="ApiMySQLActor/Models/Student.cs" Line="13" Column="22" />
       <File FileName="ApiMySQLActor/Program.cs" Line="19" Column="1" />
       <File FileName="ApiMySQLActor/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="ApiMySQLActor/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="ApiMySQLActor/appsettings.json" Line="1" Column="1" />
+      <File FileName="ApiMySQLActor/Startup.cs" Line="29" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +21,10 @@
           <Node name="ApiMySQLActor" expanded="True">
             <Node name="ApiMySQLActor" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="IsakilaContext.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Repositories" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

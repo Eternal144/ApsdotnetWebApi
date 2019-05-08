@@ -14784,11 +14784,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActorUnitTest/ApiMySQLActorUnitTest.csproj",
+      "projectUniqueName": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActorUnitTest/ApiMySQLActorUnitTest.csproj",
       "projectName": "ApiMySQLActorUnitTest",
-      "projectPath": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActorUnitTest/ApiMySQLActorUnitTest.csproj",
+      "projectPath": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActorUnitTest/ApiMySQLActorUnitTest.csproj",
       "packagesPath": "/Users/sisilee/.nuget/packages/",
-      "outputPath": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActorUnitTest/obj/",
+      "outputPath": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActorUnitTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -14805,8 +14805,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/ApiMySQLActor.csproj": {
-              "projectPath": "/Users/sisilee/Projects/c#api/web-api-example-c-sharp-mysql-actor/ApiMySQLActor/ApiMySQLActor.csproj"
+            "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/ApiMySQLActor.csproj": {
+              "projectPath": "/Users/sisilee/Projects/c#api/myWebApi/ApiMySQLActor/ApiMySQLActor.csproj"
             }
           }
         }

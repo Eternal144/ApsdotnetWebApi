@@ -1,0 +1,14 @@
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/bin/Debug/netcoreapp2.1/SampleWebApiAspNetCore.deps.json
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/bin/Debug/netcoreapp2.1/SampleWebApiAspNetCore.runtimeconfig.json
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/bin/Debug/netcoreapp2.1/SampleWebApiAspNetCore.runtimeconfig.dev.json
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/bin/Debug/netcoreapp2.1/SampleWebApiAspNetCore.dll
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/bin/Debug/netcoreapp2.1/SampleWebApiAspNetCore.pdb
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.csprojAssemblyReference.cache
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.csproj.CoreCompileInputs.cache
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.RazorAssemblyInfo.cache
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.RazorAssemblyInfo.cs
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.AssemblyInfoInputs.cache
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.AssemblyInfo.cs
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.RazorTargetAssemblyInfo.cache
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.dll
+/Users/sisilee/Projects/c#api/ASPNETCore-WebAPI-Sample/SampleWebApiAspNetCore/obj/Debug/netcoreapp2.1/SampleWebApiAspNetCore.pdb
